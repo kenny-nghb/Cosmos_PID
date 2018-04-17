@@ -27,6 +27,7 @@ public class Drive extends Subsystem {
     private static AHRS m_gyro;
     
     //test
+    //if i were gay (I'm not gay, but if i was) i'd bang albert
     
     public Drive() {
     	
