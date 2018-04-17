@@ -6,6 +6,7 @@ import org.usfirst.frc.team687.robot.commands.TankDrive;
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
 import com.ctre.phoenix.motorcontrol.can.TalonSRX;
+import com.kauailabs.navx.frc.AHRS;
 
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
@@ -24,6 +25,8 @@ public class Drive extends Subsystem {
     private static TalonSRX m_rightSlave_2;
     
     private static AHRS m_gyro;
+    
+    //test
     
     public Drive() {
     	
